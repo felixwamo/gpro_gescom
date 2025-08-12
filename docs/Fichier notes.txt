@@ -1,0 +1,9 @@
+o	Projet GPro_GesCom : ERP multitenant pour gérer ventes, stocks, RH, comptabilité, paiements.
+o	Multitenant : Une application partagée, données isolées par tenant_id.
+o	Flutter : Framework pour interfaces Web, Mobile, Desktop.
+o	PostgreSQL : Base de données relationnelle avec tables, triggers, index.
+o	Node.js/Express : API REST pour connecter frontend et backend.
+o	GitHub : Gestion de version pour sauvegarder le code.
+o	Paiements : Stripe (Visa), Paystack (Mobile Money).
+o	Multilinguisme : Support français/anglais avec Flutter.
+o	Migration future : Nhost pour backend serverless.
