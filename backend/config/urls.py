@@ -16,10 +16,8 @@ Including another URLconf
 """
 
 from django.contrib import admin
-from django.urls import path, include
+from django.urls import path
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api-auth/', include('rest_framework.urls')),  # URLs pour Django REST Framework
-    path('api/token/', include('rest_framework_simplejwt.urls')),  # URLs pour JWT
 ]
